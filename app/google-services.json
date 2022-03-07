@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335700880442",
+    "project_id": "store-47d4e",
+    "storage_bucket": "store-47d4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335700880442:android:dfd1f8957dfa19298a1903",
+        "android_client_info": {
+          "package_name": "mashtal.store_app_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335700880442-kv82itq58elnmfe0m3u6ejnuadqo47vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64Yjf2zUuNPtkmINF32TxdPLmsn3Qi_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335700880442-kv82itq58elnmfe0m3u6ejnuadqo47vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

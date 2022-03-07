@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="mashtal.store.ui.register.RegisterViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/leaves"
+        tools:context=".ui.register.RegisterActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:elevation="11dp"
+            android:text="Mashtal Store"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/vector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".39" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutValues"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="25sp"
+            android:background="@drawable/shap_register"
+            android:orientation="vertical"
+            android:paddingHorizontal="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fullNameInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transperent"
+                    android:hint="full name"
+                    android:text="@{vm.name}"
+                    android:textColorHint="@color/black"
+
+                    android:textSize="29dp"
+                    app:error="@{vm.nameError}" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transperent"
+                    android:hint="e-mail address"
+                    android:text="@{vm.email}"
+                    android:textColorHint="@color/black"
+
+                    android:textSize="29dp"
+                    app:error="@{vm.emailError}" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transperent"
+                    android:hint="password"
+                    android:inputType="textPassword"
+
+                    android:text="@{vm.password}"
+                    android:textColorHint="@color/black"
+                    android:textSize="29dp"
+                    app:error="@{vm.passwordError}" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phoneNumberInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transperent"
+                    android:hint="phone number"
+                    android:textColorHint="@color/black"
+
+                    android:textSize="29dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/create_account_button"
+                android:onClick="@{()->vm.creteAccount()}"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="10dp"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp"
+                android:onClick="@{()->vm.goToPageSign()}"
+                android:text="I already have an account"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mashtal.store">
+
+    <application
+        android:name=".ui.bindingadapter.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MashtalStore">
+        <activity
+            android:name=".model.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home_next_two.PageThreeActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ui.home_next.HomeNextPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.list.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.MashtalStore.NoActionBar" />
+        <activity
+            android:name=".ui.sign.SignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ui.splash.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -11,11 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MashtalStore">
         <activity
+            android:name=".ui.EmptyActiviy"
+            android:exported="false" />
+        <activity
             android:name=".model.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".ui.home_next_two.PageThreeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ui.home_next.HomeNextPageActivity"
             android:exported="true" />
@@ -29,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.home.HomeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ui.splash.SplashScreenActivity"
             android:exported="true">

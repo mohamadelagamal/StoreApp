@@ -9,6 +9,8 @@
         <entry key="..\:/MashtalStore/app/src/main/res/drawable/shap.xml" value="0.1895" />
         <entry key="..\:/MashtalStore/app/src/main/res/drawable/shap_register.xml" value="0.179" />
         <entry key="..\:/MashtalStore/app/src/main/res/drawable/shape_search.xml" value="0.152" />
+        <entry key="..\:/MashtalStore/app/src/main/res/drawable/shapemenu.xml" value="0.1725" />
+        <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_empty_activiy.xml" value="0.225" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_home.xml" value="0.136" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_home_next_page.xml" value="0.176" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_login.xml" value="0.15625" />
@@ -19,12 +21,14 @@
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activity_talsssssssdfasd.xml" value="0.215625" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/activiy_main.xml" value="0.215625" />
+        <entry key="..\:/MashtalStore/app/src/main/res/layout/activiy_menu.xml" value="0.24547101449275363" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/anmail.xml" value="0.24682971014492755" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/content_base.xml" value="0.1699230313795145" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/dialog_progress.xml" value="0.15625" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/list_view_items.xml" value="0.24682971014492755" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/listeview.xml" value="0.24682971014492755" />
         <entry key="..\:/MashtalStore/app/src/main/res/layout/traning.xml" value="0.1" />
+        <entry key="..\:/MashtalStore/app/src/main/res/menu/home_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/MashtalStore/app/src/main/res/menu/menu_search.xml" value="0.25416666666666665" />
       </map>
     </option>

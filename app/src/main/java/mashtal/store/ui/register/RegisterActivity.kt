@@ -29,7 +29,6 @@ class RegisterActivity : BaseActivity<ActivityRegisterBinding, RegisterViewModel
     override fun openSingPage() {
         val intent = Intent(this, SignActivity::class.java)
         startActivity(intent)
-        finish()
     }
 
 

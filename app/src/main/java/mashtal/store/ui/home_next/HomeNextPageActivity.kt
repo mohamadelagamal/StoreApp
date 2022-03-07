@@ -34,7 +34,6 @@ class HomeNextPageActivity : BaseActivity<ActivityHomeNextPageBinding, HomeNextP
     override fun backPage() {
         val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
-        finish()
     }
 
 }

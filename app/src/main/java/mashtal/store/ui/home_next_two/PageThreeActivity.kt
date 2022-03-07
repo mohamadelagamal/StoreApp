@@ -26,6 +26,5 @@ class PageThreeActivity : BaseActivity<ActivityPageThreeBinding, PageThreeViewMo
     override fun backPageThree() {
         val intent = Intent(this, HomeNextPageActivity::class.java)
         startActivity(intent)
-        finish()
     }
 }

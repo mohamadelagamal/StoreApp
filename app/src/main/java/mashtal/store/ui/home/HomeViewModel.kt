@@ -8,4 +8,5 @@ class HomeViewModel : BaseViewModel<Navigator>() {
     fun nextPage() {
         navigator?.nextPage()
     }
+
 }
